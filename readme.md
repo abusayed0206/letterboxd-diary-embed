@@ -1,4 +1,10 @@
-# Letterboxd diary embed
+# Changes
+
+I made some change on the CSS to make like a poster to generate a poster-like interface for website backgroud or poster image: [Here](https://letterboxdlrs.pages.dev/film.jpg)
+
+
+# Below orginal readme
+## Letterboxd diary embed
 
 * [Use it here](https://letterboxd-embed.timcieplowski.com/)
 
@@ -32,7 +38,7 @@ Add the following to your website, where you want the list (**replace \<your-let
 * `nocache`: If `true`, passes 1-hour cache of response.
 * `raw`: If `true`, returns raw uncached Letterboxd JSON payload.
 
-## Develop locally
+### Develop locally
 
 ```
 npm install
