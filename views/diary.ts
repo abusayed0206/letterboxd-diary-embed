@@ -36,28 +36,28 @@ export default function diaryView(diaryList: Diary[], username: string): string 
 			/* Small devices (max-width: 600px) - 5 columns */
 			@media (max-width: 600px) {
 				#letterboxd-embed-tc {
-					grid-template-columns: repeat(5, 1fr);
+					grid-template-columns: repeat(4, 1fr);
 				}
 			}
 
 			/* Small devices (min-width: 600px) - 5 columns */
 			@media (min-width: 600px) {
 				#letterboxd-embed-tc {
-					grid-template-columns: repeat(5, 1fr);
+					grid-template-columns: repeat(4, 1fr);
 				}
 			}
 
 			/* Tablets and small laptops (min-width: 768px) - 7 columns */
 			@media (min-width: 768px) {
 				#letterboxd-embed-tc {
-					grid-template-columns: repeat(7, 1fr);
+					grid-template-columns: repeat(6, 1fr);
 				}
 			}
 
 			/* Medium laptops (min-width: 992px) - 9 columns */
 			@media (min-width: 992px) {
 				#letterboxd-embed-tc {
-					grid-template-columns: repeat(9, 1fr);
+					grid-template-columns: repeat(7, 1fr);
 				}
 			}
 
